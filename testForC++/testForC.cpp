@@ -6,8 +6,21 @@ using namespace std;
 this is for poeple to use template 
 */
 
+/*
+整型    int(4byte) / short int(2byte) / long (8byte) / longlong (8byte) 
+
+
+*/
+
 //自定义全局常量= 宏常量
 #define variable 10
+
+int function(){
+
+ return 0;   
+
+
+}
 
 int main(){
     // 程序的入口 ，有且仅有一个main function 引入变量 variable 
@@ -17,8 +30,8 @@ int main(){
     short int asdaf = 3343;
     int a = 1;
     int b = 2;
-    int terminal = 123;
+    int terminal = sizeof(float);
     string d = "dasf dsf "; // update for hello world 
-    cout << a << "= hello world" << endl;
+    cout << a << "=" << sizeof(int) << endl;
     return 0;
 }
